@@ -1,5 +1,9 @@
+import TopNav from "@/components/TopNave/TopNave";
+
 export default function Home() {
   return (
-    <h2>Main Page</h2>
+    <main>
+      <TopNav />
+    </main>
   );
 }
