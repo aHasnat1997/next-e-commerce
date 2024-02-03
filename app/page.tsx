@@ -1,9 +1,9 @@
-import TopNav from "@/components/TopNave/TopNave";
+import Hero from "@/components/HomeComponents/Hero";
 
 export default function Home() {
   return (
-    <main>
-      <TopNav />
+    <main className="min-h-screen">
+      <Hero />
     </main>
   );
 }
