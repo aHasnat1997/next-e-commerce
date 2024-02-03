@@ -74,4 +74,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .section-div {
+    @apply container my-8
+  }
 }
