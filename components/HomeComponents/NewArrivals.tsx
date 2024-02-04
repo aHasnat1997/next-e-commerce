@@ -1,11 +1,7 @@
-import ProductCard from "../ProductCard/ProductCard"
-import { Button } from "../ui/button"
+import ProductCard from "../ProductCard/ProductCard";
+import { Button } from "../ui/button";
 
-/**
- * Top Products for home
- * @returns {JSX.Element} TopProducts 
- */
-export default function TopProducts(): JSX.Element {
+export default function NewArrivals() {
   const productData = [
     {
       id: '01',
@@ -55,13 +51,12 @@ export default function TopProducts(): JSX.Element {
       price: 8.99,
       productImg: 'https://quomodosoft.com/html/ecoshop/assets/images/homepage-one/product-img/p-img-10.webp'
     },
-  ]
-
+  ];
 
   return (
     <section className="section-div">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-4xl font-semibold">Top Selling Products</h3>
+        <h3 className="text-4xl font-semibold">New Arrivals</h3>
         <Button variant={'ghost'} className="hover:bg-secondary">View All</Button>
       </div>
       <div className="grid grid-cols-4 gap-8">
